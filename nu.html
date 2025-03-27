@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời trang Nam</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Gia Trọng</div>
+        <ul>
+            <li><a href="index" >Trang chủ</a></li>
+            <li><a href="nam.html" >Thời trang Nam</a></li>
+            <li><a href="nu.html" id="active">Thời trang Nữ</a></li>
+        </ul>
+        </nav>
+    <div class="banner">
+        <img src="https://file.hstatic.net/1000402464/collection/banner_new_arrival_top_f67f7b499d814ffb89d180ec32e3c588.jpg">
+    </div>
+    <div class="main-menu">
+        <div class="filter-group">
+            <div class="filter-options">
+                <div class="filter-title" onclick="this.classList.toggle('active');
+            this.nextElementSibling.style.display = 
+            this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
+            Danh mục
+            <span class="arrow">▼</span>
+        </div>
+            <div class="filter-content">
+            <div class="filter-item " data-category="all">Tất cả</div>
+            <div class="filter-item" data-category="ao">Áo</div>
+            <div class="filter-item" data-category="quan">Quần</div>
+            <div class="filter-item" data-category="vay">Váy</div>
+            <div class="filter-item" data-category="dam">Đầm</div>
+        </div>
+        </div>
+        </div>
+        <div class="product-div">
+            <p style="font-size: 25px; font-weight: bold; margin: 0; padding: 10px;">Số sản phẩm: <span id="item-count">0</span></p>
+        <div class="product-list">
+            
+            <div class="product-item" data-category="ao">
+                <img src="https://product.hstatic.net/1000402464/product/fwws25ss03c__2__35a4b312265f46de9a878ee192827a66_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Áo sơ mi dài tay</h3>
+                <p class="product-price">199.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="ao">
+                <img src="https://product.hstatic.net/1000402464/product/fwws24fh03c__3__311122537cfd409db7da7ca67ee8fbdf_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Áo sơ mi tay ngắn</h3>
+                <p class="product-price">299.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="ao">
+                <img src="https://product.hstatic.net/1000402464/product/fwbl24fh13c__2__2bf5b4ef1d7e4e538be2f86afa6d0e67_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Áo bông sóng</h3>
+                <p class="product-price">299.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="ao">
+                <img src="https://product.hstatic.net/1000402464/product/fwws25ss02c__3__5148275cacf84f8dbb80dac3d1a11d88_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Áo sơ mi dài tay hoạ tiết</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="quan">
+                <img src="https://product.hstatic.net/1000402464/product/fwjn24fh08g__2__a9f3b27ba1484bbda0b0b9ff0ec9346a_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Quần Jean loại 1</h3>
+                <p class="product-price">199.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="quan">
+                <img src="https://product.hstatic.net/1000402464/product/fwjn25ss04g_blue__2___2d1c76f059f740279729e87b3e096093_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Jean loại 2</h3>
+                <p class="product-price">199.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="quan">
+                <img src="https://product.hstatic.net/1000402464/product/fwjn24fh04g__3__61df617479054964a676bf062e0fed09_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Jean loại 3</h3>
+                <p class="product-price">299.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="quan">
+                <img src="https://product.hstatic.net/1000402464/product/fwjn24ss06c_black__2___786f3843cf81445191eee04b3b2b3c05_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Jean loại 4</h3>
+                <p class="product-price">199.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="vay">
+                <img src="https://product.hstatic.net/1000402464/product/fwsk25ss04g__2__89096bad5ba9482ba417e9016b090e19_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Chân váy 1</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="vay">
+                <img src="https://product.hstatic.net/1000402464/product/fwsk24fh13c_yellow__2___01cd4ab38d0041cd920422784b2742bf_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Chân váy 2</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="vay">
+                <img src="https://product.hstatic.net/1000402464/product/fwsk24fh04c_black__6__7a25f61988224a52afb80d0a7d3aa28d_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Chân váy 3</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="vay">
+                <img src="https://product.hstatic.net/1000402464/product/fwsk24fh02g-j__3__a75c7d9abd72401dbfcfb93952ebd064_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Chân váy 4</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="dam">
+                <img src="https://product.hstatic.net/1000402464/product/fwdr25ss016g__2__0ed09a10bcea4d0fb8532ce2d52896d3_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Đầm 1</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="dam">
+                <img src="https://product.hstatic.net/1000402464/product/fwdr25ss08g__2__259dcbe73c374c9894ff840cab0746d6_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Đầm 2</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="dam">
+                <img src="https://product.hstatic.net/1000402464/product/fwdr25ss25g__1__599bdfc167b44c0290109ace66fa0a50_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Đầm 3</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+            <div class="product-item" data-category="dam">
+                <img src="https://product.hstatic.net/1000402464/product/fwdr25ss09c__2__065a473ff6ce41b69896bb430acac3ea_large.jpg" alt="Tên sản phẩm" class="product-image">
+                <h3 class="product-name">Đầm 4</h3>
+                <p class="product-price">99.000 VNĐ</p>
+            </div>
+
+
+        </div>
+    </div>
+        </div>
+    </div>
+    <script>
+        const filterItems = document.querySelectorAll('.filter-item');
+        const products = document.querySelectorAll('.product-item');
+        document.getElementById("item-count").textContent = products.length;
+
+        filterItems.forEach(item => {
+            item.addEventListener('click', function() {
+                // Cập nhật giao diện
+                filterItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+
+                // Lọc sản phẩm
+                const selectedCategory = this.dataset.category;
+                products.forEach(product => {
+                    if (selectedCategory === 'all' || product.dataset.category === selectedCategory) {
+                        product.classList.remove('hidden');
+                    } else {
+                        product.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

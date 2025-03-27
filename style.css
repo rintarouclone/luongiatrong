@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f1ece3;
+}
+
+/* Thanh điều hướng */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+    font-family: 'Helvetica';
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin-right: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: bold;
+}
+#active{
+    border-bottom: solid 3px;
+}
+.navbar ul li a:hover {
+    border-bottom: solid 3px;
+}
+
+/* Các section ảnh */
+.section {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    margin-top: 0px; /* Khoảng cách để tránh bị che bởi navbar */
+}
+#section1 {
+    position: relative;
+    background-image: url('https://media.routine.vn/1920x0/prod/media/group-34-png-2stc.webp');
+}
+#section2 #left{
+    position: absolute;
+    top:35%;
+    right:10%;
+    font-family:"Canela";
+    font-size: 92px;
+    line-height: 92px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    max-width: 200px;
+
+
+
+}
+#section2 #right{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    font-family:"Canela";
+    font-size: 92px;
+    line-height: 92px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    max-width: 200px;
+
+
+
+}
+#section2 {
+    background-image: url('https://ey27xp99h3h.exactdn.com/wp-content/uploads/2023/08/hero-home-1536x864.jpg?strip=all&lossy=1&webp=85&avif=70&sharp=1&ssl=1');
+    position: relative;
+}
+#section3 {
+    background-image: url('https://via.placeholder.com/1920x1080?text=Ảnh+3');
+}
+.banner-container{
+    -webkit-text-size-adjust: 100%;
+--swiper-theme-color: #007aff;
+--swiper-navigation-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.42857143;
+font-family: 'SVN-Gotham',sans-serif !important;
+color: #323232 !important;
+font-size: 14px;
+letter-spacing: 0 !important;
+box-sizing: border-box;
+position: relative;
+order: 3;
+}

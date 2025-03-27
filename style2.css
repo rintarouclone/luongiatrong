@@ -1,0 +1,145 @@
+.product-item {
+    width: 220px;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #ff4444;
+    font-weight: bold;
+    margin: 0;
+}
+.product-list{
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    min-width: 960px;
+    max-width: 960px;
+    min-height: 1200px;
+    padding: 10px;
+}
+.product-item{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    background-color: F5F5DC;
+    margin-top: 20px;
+}
+.filter-item {
+    cursor: pointer;
+    width: fit-content;
+    padding: 15px;
+    font-weight: bold;
+}
+.filter-content{
+    display: none;
+}
+
+.filter-item.active {
+    border-bottom: solid 2px ;
+}
+.filter-group {
+    margin-bottom: 20px;
+    min-width: 200px
+}
+.filter-title{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif!important;
+    padding: 10;
+}
+
+.filter-options {
+
+    gap: 10px;
+}
+.product-item.hidden {
+    display: none;
+}
+body{
+    margin: 0;
+    background-color: F5F5DC;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.filter-title {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow {
+    transition: transform 0.3s;
+    transform: rotate(25deg);
+}
+.filter-title.active .arrow {
+    transform: rotate(115deg);
+}
+.banner{
+    margin: 0px 144px ;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 1180px;
+}
+.navbar {
+    display:flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(149, 19, 41);
+    padding: 1rem 2rem;
+    margin: 0;
+    color: white;
+    height: 3%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar li{
+    margin: 0px 10px;
+}
+
+.navbar .logo {
+    color: #FFD700;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar ul li a {
+    color: #F5F5DC;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: bold;
+}
+#active{
+    border-bottom: solid 3px;
+}
+.navbar ul li a:hover {
+    border-bottom: solid 3px;
+}
